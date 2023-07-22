@@ -5,9 +5,29 @@ body {
 
 .container {
   display: flex;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .section {
   display: flex;
   flex-direction: column;
+}
+
+
+p, h3, span {
+  color:  hsl(228, 12%, 48%);
+}
+
+h1 {
+  color:  hsl(212, 21%, 14%)
+;
+}
+
+h2 {
+  color: hsl(158, 36%, 37%);
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(30, 38%, 92%);
 }
