@@ -16,18 +16,21 @@ body {
 
 p, h3, span {
   color:  hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  color:  hsl(212, 21%, 14%)
-;
+  color:  hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
 }
 
 h2 {
   color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
 }
 
 button {
   background-color: hsl(158, 36%, 37%);
   color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
 }
