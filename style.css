@@ -3,9 +3,22 @@ body {
   padding: 0px;
 }
 
+img {
+  max-width: 50%;
+}
+
 .container {
   display: flex;
   background-color: hsl(0, 0%, 100%);
+  max-width: 800px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 4px;
+}
+
+sup {
+  color: hsl(228, 12%, 48%); 
+  text-decoration: line-through; 
 }
 
 .section {
